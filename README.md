@@ -6,13 +6,14 @@ This repository contains the data and R code used in support of our study:
 ---
 
 ## 📁 Structure
-
+Stand alone CODE 
 - 🔹 **`Country_SLG.R`**  
   Core script implementing the SLG (Self-Liking Group) computation for country-level scientific collaboration networks.
 
 - 🔹 **`FUN_*.R`**  
   A set of custom functions required by the main script. These include routines for network preprocessing, SLG matrix generation, and temporal aggregation.
 
+A demo DATASET
 - 🔹 **`.csv` files**  
   - A sample dataset for one year’s country-level co-authorship network. Nodes represent countries, and edges indicate co-authorship links within that year.  
   - An additional metadata file provides country-level attributes, such as:
